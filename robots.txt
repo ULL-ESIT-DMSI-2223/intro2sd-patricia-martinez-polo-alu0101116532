@@ -1,1 +1,1 @@
-Sitemap: https://mmistakes.github.io/intro2sd-template/sitemap.xml
+Sitemap: https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/sitemap.xml
