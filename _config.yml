@@ -14,10 +14,10 @@ locale                   : "en-US"
 title                    : "Introducción al Desarrollo de Sistemas"
 title_separator          : "-"
 subtitle                 : "A Jekyll theme"
-name                     : &name "Michael Rose" # &name is a YAML anchor which can be *referenced later
+name                     : &name "Patricia Martínez-Polo" # &name is a YAML anchor which can be *referenced later
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
 url                      : https://mmistakes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/intro2sd-template/" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/intro2sd-patricia-martinez-polo-alu0101116532/" # the subpath of your site, e.g. "/blog"
 repository               : "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -72,9 +72,9 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : &twitter "mmistakes"
+  username               : &twitter "pattpolo"
 facebook:
-  username               : &facebook "michaelrose"
+  username               : &facebook "patricia.martinezpolo.7"
   app_id                 :
   publisher              :
 og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter default site image
@@ -84,8 +84,8 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/mmistakes"
-    - "https://www.facebook.com/michaelrose"
+    - "https://twitter.com/pattpolo"
+    - "https://www.facebook.com/patricia.martinezpolo.7"
 
 # Analytics
 analytics:
@@ -98,22 +98,22 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/michael-rose.jpg"
-  bio              : "A Student"
-  location         : "Islas Canarias"
+  avatar           : "/assets/images/patricia.jpg"
+  bio              : "Estudiante del Grado de Ingeniería Informática en la Universidad de La Laguna"
+  location         : "Tenerife, Islas Canarias"
   links:
     - label: "Made Mistakes"
       icon: "fas fa-fw fa-link"
       url: "https://mademistakes.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+      url: "https://twitter.com/pattpolo"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/alu0101116532/alu0101116532"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://instagram.com/patrimpj"
 
 
 # Site Footer
@@ -121,13 +121,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+      url: "https://twitter.com//pattpolo"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/alu0101116532/alu0101116532"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://instagram.com/patrimpj"
 
 
 # Reading Files
@@ -190,7 +190,7 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
-  recipes:
+  resumenes:
     output: true
     permalink: /:collection/:path/
   pets:
@@ -199,7 +199,6 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-
 
 # Defaults
 defaults:
@@ -233,10 +232,10 @@ defaults:
       comments: false
       sidebar:
         nav: "docs"
-  # _recipes
+  # _resumenes
   - scope:
       path: ""
-      type: recipes
+      type: resumenes
     values:
       layout: single
       author_profile: true
