@@ -1,317 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/" rel="alternate" type="text/html" /><updated>2022-10-31T11:08:48+00:00</updated><id>https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/feed.xml</id><title type="html">Introducción al Desarrollo de Sistemas</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Patricia Martínez-Polo</name></author><entry><title type="html">Post: Future Date</title><link href="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/post/post-future-date/" rel="alternate" type="text/html" title="Post: Future Date" /><published>9999-12-31T00:00:00+00:00</published><updated>9999-12-31T00:00:00+00:00</updated><id>https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/post/post-future-date</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/post/post-future-date/">&lt;p&gt;This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--future&lt;/code&gt; flag it should appear.&lt;/p&gt;</content><author><name>Patricia Martínez-Polo</name></author><category term="Post" /><summary type="html">This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the --future flag it should appear.</summary></entry><entry><title type="html">Informe</title><link href="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/post%20formats/informe/" rel="alternate" type="text/html" title="Informe" /><published>2022-10-01T00:00:00+01:00</published><updated>2022-10-01T00:00:00+01:00</updated><id>https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/post%20formats/informe</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/post%20formats/informe/">&lt;h2 id=&quot;2022-10-31-110848-0000&quot;&gt;2022-10-31 11:08:48 +0000&lt;/h2&gt;
-
-&lt;h2 id=&quot;ejercicio-escribir-los-titulos-de-los-posts-en-una-lista&quot;&gt;Ejercicio: escribir los titulos de los posts en una lista&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Post: Future Date&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Informe&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Exclude Post from Search Index&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Header Video&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Gemified Theme – Beta Release&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Gemified Theme – Alpha Release&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Welcome to Jekyll!&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Markup: Syntax Highlighting&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Markup: Another Post with Images&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Markup: HTML Tags and Formatting&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Markup: Image Alignment&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Markup: Text Alignment&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Markup: Title with Special — Characters&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Markup: Title &lt;em&gt;with&lt;/em&gt; &lt;strong&gt;Markdown&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Markup: Text Readability Test&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Wide Single Layout Page&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Sidebar with Navigation List&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Sidebar Custom&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: More Tag&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Header Image Overlay&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Header Image Overlay with Custom Tagline&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Header Overlay with Background Fill&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Header Image (Vertical)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Header Image and Text Readability&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Header Image (Horizontal)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Header Image (External URL)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Author Sidebar Disabled&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Author Override&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Excerpt (Generated)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Excerpt (Defined)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Code Excerpt (Generated)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Post with Sticky Table of Contents&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Post with Table of Contents&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Post with Nested Table of Contents&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Post with Nested Table of Contents via Helper&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Reading Time, Comments, Social Sharing Links, and Related Posts Disabled&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Social Sharing Links Enabled&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Social Sharing Links Disabled&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Related Posts Enabled&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Related Posts Disabled&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Read Time Enabled&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Read Time Disabled&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Post Date Enabled&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Post Date Disabled&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Comments Enabled&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Layout: Comments Disabled&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Post: Twitter Embed&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Post: Gallery&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Post: Image (Caption)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Post: Image (Linked with Caption)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Post: Teaser Image with OpenGraph Override&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Post: Image (Standard)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Post: Image (with Link)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Post: Overlay Image with OpenGraph Override&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Post: Header Image with OpenGraph Override&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Post: Video (YouTube)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Post: Link&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Post: Quote&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Post: Notice&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Post: Chat&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Post: Standard&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Post: Modified Date&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Suspicio? Bene … tunc ibimus? Quis uh … CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque … A te quidem a ante. Vos scitis quod blinking res Ive ‘been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et … sunt occid&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Antidisestablishmentarianism&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Edge Case: Post with multiline excerpt&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Edge Case No Yaml Title&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Edge Case: No Body Content&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Edge Case: Many Categories&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Edge Case: Many Tags&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Edge Case: Nested and Mixed Lists&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;ejercicio-de-for&quot;&gt;Ejercicio de for&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Juan Perez su nota es 5&lt;/li&gt;
-  &lt;li&gt;Maria Gomez su nota es 4&lt;/li&gt;
-  &lt;li&gt;Pedro Gonzalez su nota es 9&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Lista de los alumnos aprobados:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Juan Perez&lt;/li&gt;
-  &lt;li&gt;Pedro Gonzalez&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Systems development&lt;/strong&gt; is the process of taking a set of business requirements and, through a series of structured stages, translating these into an operational IT system.&lt;/p&gt;
-
-&lt;p&gt;El título de esta página es: Informe&lt;/p&gt;
-
-&lt;p&gt;Esta página tiene una variable tags que es una lista con estos valores:&lt;/p&gt;
-
-&lt;p&gt;Post Formatsreadabilitystandard&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Post Formats&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;readability&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;standard&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;the-walking-dead&quot;&gt;The Walking Dead&lt;/h2&gt;
-
-&lt;p&gt;En la temporada 1 de The Walking Dead vimos muchos colores:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;rojo&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;verde&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;azul&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ponemos la lista al revés:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;azul&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;verde&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;rojo&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Vamos a hacer que no aparezca el color verde:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;azul&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;verde&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;rojo&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Vamos a imprimir los nombres de los alumnos:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;guillermo&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;jorge&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;patricia&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;otras-cosas&quot;&gt;Otras cosas&lt;/h2&gt;
-
-&lt;p&gt;The stages vary according to the development approach being used – described more fully in Chapter 2, ‘Lifecycle types and their rationales’ – but typically would include the activities shown in Figure 1.1, including: a feasibility study, to see if the project is worthwhile ; requirements engineering to analyse the business need and specify the users’ requirements ; design of the system to meet the users’ needs ; development of the software needed to meet the requirements ; testing of the software ; implementation of the solution.
-Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT professionals, edited by James Cadle, BCS Learning &amp;amp; Development Limited, 2014. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/bull-ebooks/detail.action?docID=1713962.&lt;/p&gt;</content><author><name>Patricia Martínez-Polo</name></author><category term="Post Formats" /><category term="Post Formats" /><category term="readability" /><category term="standard" /><summary type="html">2022-10-31 11:08:48 +0000 Ejercicio: escribir los titulos de los posts en una lista Post: Future Date Informe Exclude Post from Search Index Layout: Header Video Gemified Theme – Beta Release Gemified Theme – Alpha Release Welcome to Jekyll! Markup: Syntax Highlighting Markup: Another Post with Images Markup: HTML Tags and Formatting Markup: Image Alignment Markup: Text Alignment Markup: Title with Special — Characters Markup: Title with Markdown Markup: Text Readability Test Wide Single Layout Page Layout: Sidebar with Navigation List Layout: Sidebar Custom Layout: More Tag Layout: Header Image Overlay Layout: Header Image Overlay with Custom Tagline Layout: Header Overlay with Background Fill Layout: Header Image (Vertical) Layout: Header Image and Text Readability Layout: Header Image (Horizontal) Layout: Header Image (External URL) Layout: Author Sidebar Disabled Layout: Author Override Layout: Excerpt (Generated) Layout: Excerpt (Defined) Layout: Code Excerpt (Generated) Layout: Post with Sticky Table of Contents Layout: Post with Table of Contents Layout: Post with Nested Table of Contents Layout: Post with Nested Table of Contents via Helper Layout: Reading Time, Comments, Social Sharing Links, and Related Posts Disabled Layout: Social Sharing Links Enabled Layout: Social Sharing Links Disabled Layout: Related Posts Enabled Layout: Related Posts Disabled Layout: Read Time Enabled Layout: Read Time Disabled Layout: Post Date Enabled Layout: Post Date Disabled Layout: Comments Enabled Layout: Comments Disabled Post: Twitter Embed Post: Gallery Post: Image (Caption) Post: Image (Linked with Caption) Post: Teaser Image with OpenGraph Override Post: Image (Standard) Post: Image (with Link) Post: Overlay Image with OpenGraph Override Post: Header Image with OpenGraph Override Post: Video (YouTube) Post: Link Post: Quote Post: Notice Post: Chat Post: Standard Post: Modified Date Suspicio? Bene … tunc ibimus? Quis uh … CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque … A te quidem a ante. Vos scitis quod blinking res Ive ‘been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et … sunt occid Antidisestablishmentarianism Edge Case: Post with multiline excerpt Edge Case No Yaml Title Edge Case: No Body Content Edge Case: Many Categories Edge Case: Many Tags Edge Case: Nested and Mixed Lists Ejercicio de for Juan Perez su nota es 5 Maria Gomez su nota es 4 Pedro Gonzalez su nota es 9 Lista de los alumnos aprobados: Juan Perez Pedro Gonzalez Systems development is the process of taking a set of business requirements and, through a series of structured stages, translating these into an operational IT system. El título de esta página es: Informe Esta página tiene una variable tags que es una lista con estos valores: Post Formatsreadabilitystandard Post Formats readability standard The Walking Dead En la temporada 1 de The Walking Dead vimos muchos colores: rojo verde azul Ponemos la lista al revés: azul verde rojo Vamos a hacer que no aparezca el color verde: azul verde rojo Vamos a imprimir los nombres de los alumnos: guillermo jorge patricia Otras cosas The stages vary according to the development approach being used – described more fully in Chapter 2, ‘Lifecycle types and their rationales’ – but typically would include the activities shown in Figure 1.1, including: a feasibility study, to see if the project is worthwhile ; requirements engineering to analyse the business need and specify the users’ requirements ; design of the system to meet the users’ needs ; development of the software needed to meet the requirements ; testing of the software ; implementation of the solution. Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT professionals, edited by James Cadle, BCS Learning &amp;amp; Development Limited, 2014. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/bull-ebooks/detail.action?docID=1713962.</summary></entry><entry><title type="html">Exclude Post from Search Index</title><link href="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/jekyll/post-exclude-search/" rel="alternate" type="text/html" title="Exclude Post from Search Index" /><published>2017-11-28T00:00:00+00:00</published><updated>2018-02-19T13:06:00+00:00</updated><id>https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/jekyll/post-exclude-search</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/jekyll/post-exclude-search/">&lt;p&gt;This post should not appear in the search index because it has the following YAML Front Matter:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/" rel="alternate" type="text/html" /><updated>2022-10-31T11:12:05+00:00</updated><id>https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/feed.xml</id><title type="html">Introducción al Desarrollo de Sistemas</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Patricia Martínez-Polo</name></author><entry><title type="html">Post: Future Date</title><link href="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/post/post-future-date/" rel="alternate" type="text/html" title="Post: Future Date" /><published>9999-12-31T00:00:00+00:00</published><updated>9999-12-31T00:00:00+00:00</updated><id>https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/post/post-future-date</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/post/post-future-date/">&lt;p&gt;This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--future&lt;/code&gt; flag it should appear.&lt;/p&gt;</content><author><name>Patricia Martínez-Polo</name></author><category term="Post" /><summary type="html">This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the --future flag it should appear.</summary></entry><entry><title type="html">Exclude Post from Search Index</title><link href="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/jekyll/post-exclude-search/" rel="alternate" type="text/html" title="Exclude Post from Search Index" /><published>2017-11-28T00:00:00+00:00</published><updated>2018-02-19T13:06:00+00:00</updated><id>https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/jekyll/post-exclude-search</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/jekyll/post-exclude-search/">&lt;p&gt;This post should not appear in the search index because it has the following YAML Front Matter:&lt;/p&gt;
 
 &lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -1052,4 +739,62 @@ Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT 
 
 &lt;h3 id=&quot;variable-tag&quot;&gt;Variable Tag&lt;/h3&gt;
 
-&lt;p&gt;This allows you to denote &lt;var&gt;variables&lt;/var&gt;.&lt;/p&gt;</content><author><name>Patricia Martínez-Polo</name></author><category term="Markup" /><category term="content" /><category term="css" /><category term="formatting" /><category term="html" /><category term="markup" /><summary type="html">A variety of common markup showing how the theme styles them.</summary></entry></feed>
+&lt;p&gt;This allows you to denote &lt;var&gt;variables&lt;/var&gt;.&lt;/p&gt;</content><author><name>Patricia Martínez-Polo</name></author><category term="Markup" /><category term="content" /><category term="css" /><category term="formatting" /><category term="html" /><category term="markup" /><summary type="html">A variety of common markup showing how the theme styles them.</summary></entry><entry><title type="html">Markup: Image Alignment</title><link href="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/markup/markup-image-alignment/" rel="alternate" type="text/html" title="Markup: Image Alignment" /><published>2013-01-10T00:00:00+00:00</published><updated>2013-01-10T00:00:00+00:00</updated><id>https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/markup/markup-image-alignment</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/markup/markup-image-alignment/">&lt;p&gt;Welcome to image alignment! The best way to demonstrate the ebb and flow of the various image positioning options is to nestle them snuggly among an ocean of words. Grab a paddle and let’s get started.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/image-alignment-580x300.jpg&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The image above happens to be &lt;strong&gt;centered&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/image-alignment-150x150.jpg&quot; alt=&quot;image-left&quot; class=&quot;align-left&quot; /&gt; The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is &lt;strong&gt;left aligned&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;As you can see there should be some space above, below, and to the right of the image. The text should not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak like you words. Let them do their jobs without any hassle from the text. In about one more sentence here, we’ll see that the text moves from the right of the image down below the image in seamless transition. Again, letting the do it’s thing. Mission accomplished!&lt;/p&gt;
+
+&lt;p&gt;And now for a &lt;strong&gt;massively large image&lt;/strong&gt;. It also has &lt;strong&gt;no alignment&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/image-alignment-1200x4002.jpg&quot; alt=&quot;no-alignment&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The image above, though 1200px wide, should not overflow the content area. It should remain contained with no visible disruption to the flow of content.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/image-alignment-300x200.jpg&quot; alt=&quot;image-right&quot; class=&quot;align-right&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And now we’re going to shift things to the &lt;strong&gt;right align&lt;/strong&gt;. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there — Hey guy! Way to rock that right side. I don’t care what the left aligned image says, you look great. Don’t let anyone else tell you differently.&lt;/p&gt;
+
+&lt;p&gt;In just a bit here, you should see the text start to wrap below the right aligned image and settle in nicely. There should still be plenty of room and everything should be sitting pretty. Yeah — Just like that. It never felt so good to be right.&lt;/p&gt;
+
+&lt;p&gt;And just when you thought we were done, we’re going to do them all over again with captions!&lt;/p&gt;
+
+&lt;figure class=&quot;align-center&quot;&gt;
+  &lt;img src=&quot;https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/image-alignment-580x300.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption&gt;Look at 580 x 300 getting some love.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The figure above happens to be &lt;strong&gt;centered&lt;/strong&gt;. The caption also has a link in it, just to see if it does anything funky.&lt;/p&gt;
+
+&lt;figure style=&quot;width: 150px&quot; class=&quot;align-left&quot;&gt;
+  &lt;img src=&quot;https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/image-alignment-150x150.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption&gt;Itty-bitty caption.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is &lt;strong&gt;left aligned&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;As you can see there should be some space above, below, and to the right of the image. The text should not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak like you words. Let them do their jobs without any hassle from the text. In about one more sentence here, we’ll see that the text moves from the right of the image down below the image in seamless transition. Again, letting the do it’s thing. Mission accomplished!&lt;/p&gt;
+
+&lt;p&gt;And now for a &lt;strong&gt;massively large image&lt;/strong&gt;. It also has &lt;strong&gt;no alignment&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;figure style=&quot;width: 1200px&quot;&gt;
+  &lt;img src=&quot;https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/image-alignment-1200x4002.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption&gt;Massive image comment for your eyeballs.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The figure element above has an inline style of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;width: 1200px&lt;/code&gt; set which should break it outside of the normal content flow.&lt;/p&gt;
+
+&lt;figure style=&quot;width: 300px&quot; class=&quot;align-right&quot;&gt;
+  &lt;img src=&quot;https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/image-alignment-300x200.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption&gt;Feels good to be right all the time.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;And now we’re going to shift things to the &lt;strong&gt;right align&lt;/strong&gt;. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there — Hey guy! Way to rock that right side. I don’t care what the left aligned image says, you look great. Don’t let anyone else tell you differently.&lt;/p&gt;
+
+&lt;p&gt;In just a bit here, you should see the text start to wrap below the right aligned image and settle in nicely. There should still be plenty of room and everything should be sitting pretty. Yeah — Just like that. It never felt so good to be right.&lt;/p&gt;
+
+&lt;p&gt;And that’s a wrap, yo! You survived the tumultuous waters of alignment. Image alignment achievement unlocked!&lt;/p&gt;</content><author><name>Patricia Martínez-Polo</name></author><category term="Markup" /><category term="alignment" /><category term="captions" /><category term="content" /><category term="css" /><category term="image" /><category term="markup" /><summary type="html">Welcome to image alignment! The best way to demonstrate the ebb and flow of the various image positioning options is to nestle them snuggly among an ocean of words. Grab a paddle and let’s get started.</summary></entry></feed>
