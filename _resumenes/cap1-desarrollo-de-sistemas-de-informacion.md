@@ -34,7 +34,7 @@ El desarrollo de sistemas no tiene lugar de forma aislada; es parte de la red in
   <img src="https://learning-oreilly-com.accedys2.bbtk.ull.es/api/v2/epubs/urn:orm:book:9781780172453/files/images/figure1.2.jpg">
 </figure>
 
-La relación del desarrollo de sistemas con otras disciplinas puede resumirse de esta manera:
+La relación del desarrollo de sistemas con otras disciplinas puede resumirse de la siguiente manera:
 
 **Gestión de proyectos**
 

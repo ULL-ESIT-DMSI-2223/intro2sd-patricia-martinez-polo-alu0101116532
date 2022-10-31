@@ -28,7 +28,7 @@ Esta etapa tiene como objetivo asegurar la comprensión de lo que la empresa nec
 
 **Diseño**
 
-En la etapa de diseño, se consideran y sopesan las posibles soluciones que cumplen con los requisitos. Luego, el diseño elegido se elabora con suficiente detalle para permitir que los desarrolladores lo implementen.
+En la etapa de diseño, se consideran y sopesan las posibles soluciones que cumplen con los requisitos. Posteriormente, el diseño elegido se elabora con suficiente detalle para permitir que los desarrolladores lo implementen.
 
 **Desarrollo (programación)**
 
