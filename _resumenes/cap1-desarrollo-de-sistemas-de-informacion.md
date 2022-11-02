@@ -12,9 +12,9 @@ tags:
 
 ## ¿Qué es el desarrollo de sistemas?
 
-El desarrollo de sistemas es el proceso de tomar un conjunto de requisitos comerciales y traducirlos en un sistema de TI operativo mediante una serie de etapas estructuradas.
+El desarrollo de sistemas es el proceso de tomar un conjunto de requisitos comerciales y traducirlos en un sistema de TI operativo por etapas.
 
-Las etapas varían según el enfoque de desarrollo que se utilice, pero generalmente incluirían las siguientes actividades:
+Las etapas varían según el enfoque de desarrollo que se utilice, pero generalmente incluye:
 * Un estudio de factibilidad, para ver si el proyecto vale la pena.
 * Ingeniería de requisitos, para analizar la necesidad del negocio y especificar los requisitos de los usuarios.
 * Diseño del sistema, para satisfacer las necesidades de los usuarios.
@@ -28,7 +28,7 @@ Las etapas varían según el enfoque de desarrollo que se utilice, pero generalm
 
 ## Desarrollo de sistemas y otras disciplinas
 
-El desarrollo de sistemas no tiene lugar de forma aislada; es parte de la red intrincadamente conectada de disciplinas.
+El desarrollo de sistemas no tiene lugar de forma aislada; es parte de una red de disciplinas.
 
 <figure>
   <img src="https://learning-oreilly-com.accedys2.bbtk.ull.es/api/v2/epubs/urn:orm:book:9781780172453/files/images/figure1.2.jpg">
