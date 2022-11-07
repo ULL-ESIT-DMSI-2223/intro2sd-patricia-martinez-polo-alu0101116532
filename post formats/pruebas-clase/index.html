@@ -1,0 +1,1049 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="es" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Pruebas de clase - Introducción al Desarrollo de Sistemas</title>
+<meta name="description" content="2022-11-07 15:46:33 +0000">
+
+
+  <meta name="author" content="Patricia Martínez-Polo">
+  
+  <meta property="article:author" content="Patricia Martínez-Polo">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="Introducción al Desarrollo de Sistemas">
+<meta property="og:title" content="Pruebas de clase">
+<meta property="og:url" content="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/post%20formats/pruebas-clase/">
+
+
+  <meta property="og:description" content="2022-11-07 15:46:33 +0000">
+
+
+
+  <meta property="og:image" content="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/assets/images/site-logo.png">
+
+
+
+  <meta name="twitter:site" content="@pattpolo">
+  <meta name="twitter:title" content="Pruebas de clase">
+  <meta name="twitter:description" content="2022-11-07 15:46:33 +0000">
+  <meta name="twitter:url" content="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/post%20formats/pruebas-clase/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:image" content="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/assets/images/site-logo.png">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2022-10-01T00:00:00+01:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/post%20formats/pruebas-clase/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Patricia Martínez-Polo",
+      "url": "https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/",
+      "sameAs": ["https://twitter.com/pattpolo","https://www.facebook.com/patricia.martinezpolo.7"]
+    
+  }
+</script>
+
+
+  <meta name="google-site-verification" content="UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" />
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/intro2sd-patricia-martinez-polo-alu0101116532/feed.xml" type="application/atom+xml" rel="alternate" title="Introducción al Desarrollo de Sistemas Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/intro2sd-patricia-martinez-polo-alu0101116532/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/intro2sd-patricia-martinez-polo-alu0101116532/">
+          Introducción al Desarrollo de Sistemas
+          <span class="site-subtitle">Práctica 4</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/intro2sd-patricia-martinez-polo-alu0101116532/docs/quick-start-guide/">Guía Rápida</a>
+            </li><li class="masthead__menu-item">
+              <a href="/intro2sd-patricia-martinez-polo-alu0101116532/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/intro2sd-patricia-martinez-polo-alu0101116532/year-archive/">Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/intro2sd-patricia-martinez-polo-alu0101116532/collection-archive/">Collections</a>
+            </li><li class="masthead__menu-item">
+              <a href="/intro2sd-patricia-martinez-polo-alu0101116532/terms/">Terms &amp; Privacy Policy</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/intro2sd-patricia-martinez-polo-alu0101116532/assets/images/patricia.jpg" alt="Patricia Martínez-Polo" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Patricia Martínez-Polo</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Estudiante del Grado de Ingeniería Informática en la Universidad de La Laguna</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Tenerife, Islas Canarias</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://mademistakes.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Made Mistakes</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/pattpolo" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/alu0101116532/alu0101116532" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://instagram.com/patrimpj" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Pruebas de clase">
+    <meta itemprop="description" content="2022-11-07 15:46:33 +0000">
+    <meta itemprop="datePublished" content="2022-10-01T00:00:00+01:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Pruebas de clase
+</h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h2 id="2022-11-07-154633-0000">2022-11-07 15:46:33 +0000</h2>
+
+<h2 id="ejercicio-escribir-los-titulos-de-los-posts-en-una-lista">Ejercicio: escribir los titulos de los posts en una lista</h2>
+
+<ul>
+  <li>
+    <p>Post: Future Date</p>
+  </li>
+  <li>
+    <p>Informe</p>
+  </li>
+  <li>
+    <p>Pruebas de clase</p>
+  </li>
+  <li>
+    <p>Exclude Post from Search Index</p>
+  </li>
+  <li>
+    <p>Layout: Header Video</p>
+  </li>
+  <li>
+    <p>Gemified Theme – Beta Release</p>
+  </li>
+  <li>
+    <p>Gemified Theme – Alpha Release</p>
+  </li>
+  <li>
+    <p>Welcome to Jekyll!</p>
+  </li>
+  <li>
+    <p>Markup: Syntax Highlighting</p>
+  </li>
+  <li>
+    <p>Markup: Another Post with Images</p>
+  </li>
+  <li>
+    <p>Markup: HTML Tags and Formatting</p>
+  </li>
+  <li>
+    <p>Markup: Image Alignment</p>
+  </li>
+  <li>
+    <p>Markup: Text Alignment</p>
+  </li>
+  <li>
+    <p>Markup: Title with Special — Characters</p>
+  </li>
+  <li>
+    <p>Markup: Title <em>with</em> <strong>Markdown</strong></p>
+  </li>
+  <li>
+    <p>Markup: Text Readability Test</p>
+  </li>
+  <li>
+    <p>Wide Single Layout Page</p>
+  </li>
+  <li>
+    <p>Layout: Sidebar with Navigation List</p>
+  </li>
+  <li>
+    <p>Layout: Sidebar Custom</p>
+  </li>
+  <li>
+    <p>Layout: More Tag</p>
+  </li>
+  <li>
+    <p>Layout: Header Image Overlay</p>
+  </li>
+  <li>
+    <p>Layout: Header Image Overlay with Custom Tagline</p>
+  </li>
+  <li>
+    <p>Layout: Header Overlay with Background Fill</p>
+  </li>
+  <li>
+    <p>Layout: Header Image (Vertical)</p>
+  </li>
+  <li>
+    <p>Layout: Header Image and Text Readability</p>
+  </li>
+  <li>
+    <p>Layout: Header Image (Horizontal)</p>
+  </li>
+  <li>
+    <p>Layout: Header Image (External URL)</p>
+  </li>
+  <li>
+    <p>Layout: Author Sidebar Disabled</p>
+  </li>
+  <li>
+    <p>Layout: Author Override</p>
+  </li>
+  <li>
+    <p>Layout: Excerpt (Generated)</p>
+  </li>
+  <li>
+    <p>Layout: Excerpt (Defined)</p>
+  </li>
+  <li>
+    <p>Layout: Code Excerpt (Generated)</p>
+  </li>
+  <li>
+    <p>Layout: Post with Sticky Table of Contents</p>
+  </li>
+  <li>
+    <p>Layout: Post with Table of Contents</p>
+  </li>
+  <li>
+    <p>Layout: Post with Nested Table of Contents</p>
+  </li>
+  <li>
+    <p>Layout: Post with Nested Table of Contents via Helper</p>
+  </li>
+  <li>
+    <p>Layout: Reading Time, Comments, Social Sharing Links, and Related Posts Disabled</p>
+  </li>
+  <li>
+    <p>Layout: Social Sharing Links Enabled</p>
+  </li>
+  <li>
+    <p>Layout: Social Sharing Links Disabled</p>
+  </li>
+  <li>
+    <p>Layout: Related Posts Enabled</p>
+  </li>
+  <li>
+    <p>Layout: Related Posts Disabled</p>
+  </li>
+  <li>
+    <p>Layout: Read Time Enabled</p>
+  </li>
+  <li>
+    <p>Layout: Read Time Disabled</p>
+  </li>
+  <li>
+    <p>Layout: Post Date Enabled</p>
+  </li>
+  <li>
+    <p>Layout: Post Date Disabled</p>
+  </li>
+  <li>
+    <p>Layout: Comments Enabled</p>
+  </li>
+  <li>
+    <p>Layout: Comments Disabled</p>
+  </li>
+  <li>
+    <p>Post: Twitter Embed</p>
+  </li>
+  <li>
+    <p>Post: Gallery</p>
+  </li>
+  <li>
+    <p>Post: Image (Caption)</p>
+  </li>
+  <li>
+    <p>Post: Image (Linked with Caption)</p>
+  </li>
+  <li>
+    <p>Post: Teaser Image with OpenGraph Override</p>
+  </li>
+  <li>
+    <p>Post: Image (Standard)</p>
+  </li>
+  <li>
+    <p>Post: Image (with Link)</p>
+  </li>
+  <li>
+    <p>Post: Overlay Image with OpenGraph Override</p>
+  </li>
+  <li>
+    <p>Post: Header Image with OpenGraph Override</p>
+  </li>
+  <li>
+    <p>Post: Video (YouTube)</p>
+  </li>
+  <li>
+    <p>Post: Link</p>
+  </li>
+  <li>
+    <p>Post: Quote</p>
+  </li>
+  <li>
+    <p>Post: Notice</p>
+  </li>
+  <li>
+    <p>Post: Chat</p>
+  </li>
+  <li>
+    <p>Post: Standard</p>
+  </li>
+  <li>
+    <p>Post: Modified Date</p>
+  </li>
+  <li>
+    <p>Suspicio? Bene … tunc ibimus? Quis uh … CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque … A te quidem a ante. Vos scitis quod blinking res Ive ‘been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et … sunt occid</p>
+  </li>
+  <li>
+    <p>Antidisestablishmentarianism</p>
+  </li>
+  <li>
+    <p>Edge Case: Post with multiline excerpt</p>
+  </li>
+  <li>
+    <p>Edge Case No Yaml Title</p>
+  </li>
+  <li>
+    <p>Edge Case: No Body Content</p>
+  </li>
+  <li>
+    <p>Edge Case: Many Categories</p>
+  </li>
+  <li>
+    <p>Edge Case: Many Tags</p>
+  </li>
+  <li>
+    <p>Edge Case: Nested and Mixed Lists</p>
+  </li>
+</ul>
+
+<h2 id="ejercicio-de-for">Ejercicio de for</h2>
+
+<ul>
+  <li>Juan Perez su nota es 5</li>
+  <li>Maria Gomez su nota es 4</li>
+  <li>Pedro Gonzalez su nota es 9</li>
+</ul>
+
+<p>Lista de los alumnos aprobados:</p>
+
+<ul>
+  <li>Juan Perez</li>
+  <li>Pedro Gonzalez</li>
+</ul>
+
+<p><strong>Systems development</strong> is the process of taking a set of business requirements and, through a series of structured stages, translating these into an operational IT system.</p>
+
+<p>El título de esta página es: Pruebas de clase</p>
+
+<p>Esta página tiene una variable tags que es una lista con estos valores:</p>
+
+<p>Post Formatsreadabilitystandard</p>
+
+<ul>
+  <li>
+    <p>Post Formats</p>
+  </li>
+  <li>
+    <p>readability</p>
+  </li>
+  <li>
+    <p>standard</p>
+  </li>
+</ul>
+
+<h2 id="the-walking-dead">The Walking Dead</h2>
+
+<p>En la temporada 1 de The Walking Dead vimos muchos colores:</p>
+
+<ul>
+  <li>
+    <p>rojo</p>
+  </li>
+  <li>
+    <p>verde</p>
+  </li>
+  <li>
+    <p>azul</p>
+  </li>
+</ul>
+
+<p>Ponemos la lista al revés:</p>
+
+<ul>
+  <li>
+    <p>azul</p>
+  </li>
+  <li>
+    <p>verde</p>
+  </li>
+  <li>
+    <p>rojo</p>
+  </li>
+</ul>
+
+<p>Vamos a hacer que no aparezca el color verde:</p>
+
+<ul>
+  <li>
+    <p>azul</p>
+  </li>
+  <li>
+    <p>verde</p>
+  </li>
+  <li>
+    <p>rojo</p>
+  </li>
+</ul>
+
+<p>Vamos a imprimir los nombres de los alumnos:</p>
+
+<ul>
+  <li>
+    <p>guillermo</p>
+  </li>
+  <li>
+    <p>jorge</p>
+  </li>
+  <li>
+    <p>patricia</p>
+  </li>
+</ul>
+
+<h2 id="otras-cosas">Otras cosas</h2>
+
+<p>The stages vary according to the development approach being used – described more fully in Chapter 2, ‘Lifecycle types and their rationales’ – but typically would include the activities shown in Figure 1.1, including: a feasibility study, to see if the project is worthwhile ; requirements engineering to analyse the business need and specify the users’ requirements ; design of the system to meet the users’ needs ; development of the software needed to meet the requirements ; testing of the software ; implementation of the solution.
+Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT professionals, edited by James Cadle, BCS Learning &amp; Development Limited, 2014. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/bull-ebooks/detail.action?docID=1713962.</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/intro2sd-patricia-martinez-polo-alu0101116532/tags/#post-formats" class="page__taxonomy-item" rel="tag">Post Formats</a><span class="sep">, </span>
+    
+      <a href="/intro2sd-patricia-martinez-polo-alu0101116532/tags/#readability" class="page__taxonomy-item" rel="tag">readability</a><span class="sep">, </span>
+    
+      <a href="/intro2sd-patricia-martinez-polo-alu0101116532/tags/#standard" class="page__taxonomy-item" rel="tag">standard</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/intro2sd-patricia-martinez-polo-alu0101116532/categories/#post-formats" class="page__taxonomy-item" rel="tag">Post Formats</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-10-01T00:00:00+01:00">October 1, 2022</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?via=pattpolo&text=Pruebas+de+clase%20https%3A%2F%2Fmmistakes.github.io%2Fintro2sd-patricia-martinez-polo-alu0101116532%2Fpost%2520formats%2Fpruebas-clase%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmmistakes.github.io%2Fintro2sd-patricia-martinez-polo-alu0101116532%2Fpost%2520formats%2Fpruebas-clase%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fmmistakes.github.io%2Fintro2sd-patricia-martinez-polo-alu0101116532%2Fpost%2520formats%2Fpruebas-clase%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/intro2sd-patricia-martinez-polo-alu0101116532/jekyll/post-exclude-search/" class="pagination--pager" title="Exclude Post from Search Index
+">Previous</a>
+    
+    
+      <a href="/intro2sd-patricia-martinez-polo-alu0101116532/post%20formats/informe/" class="pagination--pager" title="Informe
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <div align="center" style="margin: 1em 0;">
+        <ins class="adsbygoogle"
+              style="display:block; border-bottom: initial;"
+              data-ad-client="ca-pub-7328585512091257"
+              data-ad-slot="3049671934"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+      </div>
+      <h2 class="page__related-title">You May Also Enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/intro2sd-patricia-martinez-polo-alu0101116532/post/post-future-date/" rel="permalink">Post: Future Date
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the --future flag it should appear.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/intro2sd-patricia-martinez-polo-alu0101116532/post%20formats/informe/" rel="permalink">Informe
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Práctica 4: Introduction to Systems Development
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/intro2sd-patricia-martinez-polo-alu0101116532/jekyll/post-exclude-search/" rel="permalink">Exclude Post from Search Index
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This post should not appear in the search index because it has the following YAML Front Matter:
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/intro2sd-patricia-martinez-polo-alu0101116532/layout/uncategorized/layout-header-video/" rel="permalink">Layout: Header Video
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This post should display a header with a responsive video, if the theme supports it.
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+      <div align="center" style="margin: 1em 0;">
+        <ins class="adsbygoogle"
+             style="display:block; border-bottom: initial;"
+             data-ad-client="ca-pub-7328585512091257"
+             data-ad-slot="3049671934"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+      </div>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><div class="search-searchbar"></div>
+  <div class="search-hits"></div></div>
+
+      </div>
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com//pattpolo" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/alu0101116532/alu0101116532" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/patrimpj" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    
+      <li><a href="/intro2sd-patricia-martinez-polo-alu0101116532/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Patricia Martínez-Polo. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/intro2sd-patricia-martinez-polo-alu0101116532/assets/js/main.min.js"></script>
+
+
+<!-- Including InstantSearch.js library and styling -->
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
+
+<script>
+// Instanciating InstantSearch.js with Algolia credentials
+const search = instantsearch({
+  appId: 'QB6HVGBSBA',
+  apiKey: '9d5014e5bbc77372547bce778dfa5663',
+  indexName: 'minimal_mistakes',
+  searchParameters: {
+    restrictSearchableAttributes: [
+      'title',
+      'content'
+    ]
+  }
+});
+
+const hitTemplate = function(hit) {
+  const url = hit.url;
+  const title = hit._highlightResult.title.value;
+  const content = hit._highlightResult.html.value;
+
+  return `
+    <div class="list__item">
+      <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+        <h2 class="archive__item-title" itemprop="headline"><a href="/intro2sd-patricia-martinez-polo-alu0101116532/${url}">${title}</a></h2>
+        <div class="archive__item-excerpt" itemprop="description">${content}</div>
+      </article>
+    </div>
+  `;
+}
+
+// Adding searchbar and results widgets
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '.search-searchbar',
+    poweredBy: true,
+    placeholder: 'Enter your search term...'
+  })
+);
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '.search-hits',
+    templates: {
+      item: hitTemplate,
+      empty: 'No results',
+    }
+  })
+);
+
+// Starting the search only when toggle is clicked
+$(document).ready(function () {
+  $(".search__toggle").on("click", function() {
+    if(!search.started) {
+      search.start();
+    }
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+
+    <style>
+      .google-auto-placed {
+        margin: 2em auto;
+      }
+    </style>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+  </body>
+</html>

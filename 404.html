@@ -5,11 +5,11 @@
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-<html lang="en" class="no-js">
+<html lang="es" class="no-js">
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Page Not Found - Introducción al Desarrollo de Sistemas</title>
+<!-- begin _includes/seo.html --><title>ERROR!! - Introducción al Desarrollo de Sistemas</title>
 <meta name="description" content="Page not found. Your pixels are in another canvas.">
 
 
@@ -18,9 +18,9 @@
 
 
 <meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="es_ES">
 <meta property="og:site_name" content="Introducción al Desarrollo de Sistemas">
-<meta property="og:title" content="Page Not Found">
+<meta property="og:title" content="ERROR!!">
 <meta property="og:url" content="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/404.html">
 
 
@@ -33,7 +33,7 @@
 
 
   <meta name="twitter:site" content="@pattpolo">
-  <meta name="twitter:title" content="Page Not Found">
+  <meta name="twitter:title" content="ERROR!!">
   <meta name="twitter:description" content="Page not found. Your pixels are in another canvas.">
   <meta name="twitter:url" content="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532/404.html">
 
@@ -133,16 +133,16 @@
         
         <a class="site-title" href="/intro2sd-patricia-martinez-polo-alu0101116532/">
           Introducción al Desarrollo de Sistemas
-          <span class="site-subtitle">A Jekyll theme</span>
+          <span class="site-subtitle">Práctica 4</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/intro2sd-patricia-martinez-polo-alu0101116532/docs/quick-start-guide/">Quick-Start Guide</a>
+              <a href="/intro2sd-patricia-martinez-polo-alu0101116532/docs/quick-start-guide/">Guía Rápida</a>
             </li><li class="masthead__menu-item">
               <a href="/intro2sd-patricia-martinez-polo-alu0101116532/about/">About</a>
             </li><li class="masthead__menu-item">
-              <a href="/intro2sd-patricia-martinez-polo-alu0101116532/year-archive/">Sample Posts</a>
+              <a href="/intro2sd-patricia-martinez-polo-alu0101116532/year-archive/">Posts</a>
             </li><li class="masthead__menu-item">
-              <a href="/intro2sd-patricia-martinez-polo-alu0101116532/collection-archive/">Sample Collections</a>
+              <a href="/intro2sd-patricia-martinez-polo-alu0101116532/collection-archive/">Collections</a>
             </li><li class="masthead__menu-item">
               <a href="/intro2sd-patricia-martinez-polo-alu0101116532/terms/">Terms &amp; Privacy Policy</a>
             </li></ul>
@@ -290,7 +290,7 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Page Not Found">
+    <meta itemprop="headline" content="ERROR!!">
     <meta itemprop="description" content="Page not found. Your pixels are in another canvas.">
     
     
@@ -298,7 +298,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Page Not Found
+          <h1 id="page-title" class="page__title" itemprop="headline">ERROR!!
 </h1>
           
 
@@ -308,7 +308,62 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>Sorry, but the page you were trying to view does not exist.</p>
+        <div>
+<style>
+img, #quote, #comment-dog {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#author {
+  float: right;
+}
+</style>
+
+
+<div id="comment-dog"></div>
+<div id="dog"></div>
+<br />
+<div id="quote"></div>
+<div id="author"></div>
+
+
+<script type="text/javascript">
+
+/*
+  https://docs.thedogapi.com/
+*/
+const URL = 'https://api.thedogapi.com/v1/images/search';
+
+(async function() {
+  try {
+    
+    // DOG 
+    let divTitle = document.getElementById("comment-dog");
+    
+    let divdog = document.getElementById("dog");
+    let response = await fetch(URL, {
+       headers: {
+       'x-api-key': "live_WVBcIsP6MkftvW1ZjoMgTwq05ckwfGSvLi05RCx2RJwu4tbE24R0zV4A7Mtf8Cmg'"
+       }
+    });
+    let dog = await response.json();
+    // console.log(dog);   
+    let img = document.createElement("img");
+    let title = document.createElement("h2");
+    title.innerText = "No existe la página que buscas pero aquí tienes un perrito para hacerte compañía";   
+    divTitle.append(title);
+    img.src = dog[0].url;
+    divdog.appendChild(img);   
+
+  }
+  catch(e) { 
+    console.log(e);
+  }
+})();
+</script>
+
+</div>
 
         
       </section>
