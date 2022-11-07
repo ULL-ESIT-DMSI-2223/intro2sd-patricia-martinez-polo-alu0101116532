@@ -4,7 +4,7 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_image: /assets/images/header.jpg
   actions:
     - label: "<i class='fas fa-download'></i> Install now"
       url: "/docs/quick-start-guide/"
@@ -12,24 +12,24 @@ excerpt: >
   Una práctica para una asignatura de informática.<br />
   <small><a href="https://www.ull.es/apps/guias/guias/view_teacher_niu/967/crguezl/">El profesor</a></small>
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /assets/images/configuracion.jpg
     alt: "customizable"
-    title: "Super chachi"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    title: "Configuration"
+    excerpt: "Todo, desde los menús, las barras laterales, los comentarios y mucho más, se puede configurar o establecer con YAML Front Matter."
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
+  - image_path: /assets/images/layout.png
     alt: "fully responsive"
     title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    excerpt: "Construido con HTML5 + CSS3. Todos los diseños son completamente responsivos con ayudantes para aumentar su contenido."
     url: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
+  - image_path: /assets/images/free.jpg
     alt: "100% free"
     title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+    excerpt: "Libre de usar como quieras bajo la licencia MIT. Clónalo, bórcalo, personalízalo... ¡lo que sea!"
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
