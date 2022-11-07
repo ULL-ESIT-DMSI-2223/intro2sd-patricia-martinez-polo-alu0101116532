@@ -12,7 +12,7 @@ excerpt: >
   Una práctica para una asignatura de informática.<br />
   <small><a href="https://www.ull.es/apps/guias/guias/view_teacher_niu/967/crguezl/">El profesor</a></small>
 feature_row:
-  - image_path: /assets/images/configuracion-sin-fondo.jpg
+  - image_path: /assets/images/configuracion-sin-fondo.png
     alt: "customizable"
     title: "Configuration"
     excerpt: "Todo, desde los menús, las barras laterales, los comentarios y mucho más, se puede configurar o establecer con YAML Front Matter."
@@ -26,7 +26,7 @@ feature_row:
     url: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/free-sin-fondo.jpg
+  - image_path: /assets/images/free-sin-fondo.png
     alt: "100% free"
     title: "100% free"
     excerpt: "Libre de usar como quieras bajo la licencia MIT. Clónalo, bórcalo, personalízalo... ¡lo que sea!"
