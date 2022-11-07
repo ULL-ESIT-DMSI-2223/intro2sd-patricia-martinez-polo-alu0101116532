@@ -1,5 +1,5 @@
 ---
-title: "Informe"
+title: "Pruebas de clase"
 categories:
   - Post Formats
 tags:
