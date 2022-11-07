@@ -14,27 +14,25 @@ tags:
 
 Un ciclo de vida de desarrollo de sistemas (SDLC) es un marco que describe un proceso para comprender, planificar, construir, probar e implementar un sistema de información.
 
-El proceso puede aplicarse tanto a sistemas de hardware como de software, ya que un sistema puede estar compuesto solo de hardware, solo de software o una combinación de ambos.
-
 En el desarrollo de cualquier sistema, hay una serie de etapas que deben llevarse a cabo que, aunque se muestran como un conjunto de pasos secuenciales, no es necesario tratarlos como tales.
 
-**Estudio de factibilidad**
+**1. Estudio de factibilidad**
 
 El estudio de factibilidad involucra investigación e investigación para evaluar el potencial de éxito del proyecto para apoyar la toma de decisiones. Este se ocupa de comprender objetivamente los recursos y costos involucrados y sopesarlos contra el valor que se obtendrá luego de la finalización del proyecto o sistema, o también conocido como _retorno de la inversión_ (ROI) y solo se admitirán aquellos proyectos y sistemas que devuelvan un ROI razonable.
 
-**Ingería de requisitos**
+**2. Ingería de requisitos**
 
 Esta etapa tiene como objetivo asegurar la comprensión de lo que la empresa necesita que haga el sistema propuesto. Para hacerlo, se requiere del esfuerzo de los analistas de negocios para que los requisitos puedan obtenerse, analizarse, documentarse y validarse.
 
-**Diseño**
+**3. Diseño**
 
 En la etapa de diseño, se consideran y sopesan las posibles soluciones que cumplen con los requisitos. Posteriormente, el diseño elegido se elabora con suficiente detalle para permitir que los desarrolladores lo implementen.
 
-**Desarrollo (programación)**
+**4. Desarrollo (programación)**
 
 El desarrollo es la fase en la que se crean, adquieren o configuran los componentes técnicos (tanto hardware como software). Los desarrolladores siguen el diseño para garantizar que el sistema haga lo que se necesita para la empresa o el cliente.
 
-**Pruebas**
+**5. Pruebas**
 
 Durante las pruebas, los componentes producidos durante el desarrollo se prueban para asegurarse de que funcionan correctamente y que el sistema hace lo que se supone que debe hacer. Existen diferentes niveles de prueba:
 
@@ -43,7 +41,7 @@ Durante las pruebas, los componentes producidos durante el desarrollo se prueban
 * Las pruebas del sistema
 * Las pruebas de aceptación
 
-**Implementación**
+**6. Implementación**
 
 Antes de que un sistema de TI esté listo para usarse, debe ponerse en marcha en el entorno 'en vivo' u 'operativo'. Pasar al entorno en vivo requiere una planificación cuidadosa y debe entenderse y administrarse como parte del ciclo de vida general del desarrollo.
 
@@ -62,4 +60,5 @@ Los elementos del ciclo de vida del desarrollo del sistema a considerar son:
 	<img src="https://learning-oreilly-com.accedys2.bbtk.ull.es/api/v2/epubs/urn:orm:book:9781780172453/files/images/figure2.2.jpg">
 </figure>
 
-
+**Lo siento!** Este texto aun no está terminado. Estamos trabajando en ello. 
+{: .notice--danger}
