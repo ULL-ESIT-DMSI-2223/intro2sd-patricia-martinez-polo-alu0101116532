@@ -1,4 +1,4 @@
 {
     "titulo": "Práctica 4: Introduction to Systems Development",
-    "rubrica": ["Sitio web en GitHub pages", "Resumen del capítulo", "Kanban Board", "Despliegue en netlify", "Crear una Jekyll Collection", "Usar liquid", "Usar un .json en _data", "Reconfigurar datos en el _config.yml", "Página 404"]
+    "rubrica": ["Sitio web en GitHub pages", "Resumen del capítulo", "Kanban Board", "Despliegue en Netlify", "Crear una Jekyll Collection", "Usar Liquid", "Usar un .json en _data", "Reconfigurar datos en el _config.yml", "Página 404"]
 }

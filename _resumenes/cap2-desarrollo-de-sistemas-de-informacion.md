@@ -56,8 +56,9 @@ Los elementos del ciclo de vida del desarrollo del sistema a considerar son:
 * __Entregables__
 * __Técnicas__
 
-<figure>
-	<img src="https://learning-oreilly-com.accedys2.bbtk.ull.es/api/v2/epubs/urn:orm:book:9781780172453/files/images/figure2.2.jpg">
+<figure style="width: 400px"
+class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ciclo_de_vida.jpg" alt="">
 </figure>
 
 **Lo siento!** Este texto aun no está terminado. Estamos trabajando en ello. 
