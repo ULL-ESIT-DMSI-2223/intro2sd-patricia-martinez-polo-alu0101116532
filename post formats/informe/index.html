@@ -350,9 +350,7 @@
 
 <p>He creado un sitio web en GitHub Pages y lo he enlazado al repositorio de la práctica.</p>
 
-<figure style="width: 300px" class="align-center">
-  <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/gh_pages.jpg" alt="" />
-</figure>
+<p><img src="/assets/images/gh_pages.jpg" alt="gh_pages" /></p>
 
 <h2 id="resumen-del-capítulo">Resumen del capítulo</h2>
 
@@ -372,7 +370,7 @@
 
 <p>Este Kanban Board se encuentra <a href="https://github.com/orgs/ULL-ESIT-DMSI-2223/projects/16" class="btn btn--info btn--small">aquí</a></p>
 
-<p><img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/kanban.jpg" alt="kanban" class="align-center" /></p>
+<p><img src="/assets/images/kanban.jpg" alt="kanban" /></p>
 
 <h2 id="despliegue-netlify">Despliegue Netlify</h2>
 
@@ -382,25 +380,21 @@
 
 <p>1.He accedido a Netlify con mi cuenta de GitHub y concedido permisos.</p>
 
-<figure style="width: 300px" class="align-center">
-  <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/connect_to_git_provider.jpg" alt="" />
-</figure>
+<p><img src="/assets/images/connect_to_git_provider.jpg" alt="connect_to_git_provider" /></p>
 
 <p>2.Netlify me ha pedido que importe alguno de mis repositorios de GitHub pero como el de la práctica es privado, no podemos importarlo. Por ello, primero cambiamos la vista de privada a publica.</p>
 
-<figure style="width: 300px" class="align-center">
-  <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/pick_a_repository.jpg" alt="" />
-</figure>
+<p><img src="/assets/images/pick_a_repository.jpg" alt="pick_a_repository" /></p>
 
 <p>3.Una vez hecho esto, nos toca modificar los ajustes básicos que se usan para el <em>build</em>. Vamos al archivo <strong>_config.dev.yml</strong> sonde están colgados los ajustes de sobrecarga del archivo <strong>_config.yml</strong> y añadimos código tal como se muestra en las imágenes:</p>
 
-<p><img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/config_dev_sin_editar.jpg" width="250x" />
-<img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/config_dev_editado.jpg" width="250x" /></p>
+<p><img src="/assets/images/config_sin_editar.jpg" alt="config_sin_editar" />
+<img src="/assets/images/config_editado.jpg" alt="config_editado" /></p>
 
 <p>4.Por último, cambiamos los ajustes básicos de despliegue de Netlify y cambiamos el comando que se usará para realizar el despliegue para que use la configuración del fichero <strong>_config.yml</strong> sobrecargada por la del fichero <strong>_config.dev.yml</strong>. Si no se realizan esos cambios, la página se desplegará mal.</p>
 
-<p><img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/build_settings_1.jpg" width="250x" />
-<img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/build_settings_2.jpg" width="250x" /></p>
+<p><img src="/assets/images/build_settings_1.jpg" alt="build_settings_1" />
+<img src="/assets/images/build_settings_2.jpg" alt="build_settings_2" /></p>
 
 <p>El resultado de este despliegue se encuentra en el siguiente enlace: <a href="https://cosmic-fudge-946bf2.netlify.app/" class="btn btn--primary btn--small">https://cosmic-fudge-946bf2.netlify.app/</a></p>
 
@@ -408,9 +402,7 @@
 
 <p>Como en la práctica se pedía hacer un resumen del primer capítulo de un libro he decidido crear la collection <strong>resumenes</strong>. En ella se encuentran varios posts con resumenes de distintos capítulos de libros.</p>
 
-<figure style="width: 250px" class="align-center">
-  <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/collections.jpg" alt="" />
-</figure>
+<p><img src="/assets/images/collections.jpg" alt="collections" /></p>
 
 <h2 id="usar-liquid">Usar Liquid</h2>
 
@@ -428,17 +420,13 @@
 
 <p>Para cumplir esta parte de la práctica he creado un fichero <strong>practica.json</strong> en la carpeta <strong>_data</strong>. En este fichero se encuentra la rúbrica de la práctica y algunos datos más que he plasmado en este post usando liquid, tal y como comenté anteriormente.</p>
 
-<figure style="width: 600px" class="align-center">
-  <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/practica_json.jpg" alt="" />
-</figure>
+<p><img src="/assets/images/practica_json.jpg" alt="practica_json" /></p>
 
 <h2 id="reconfigurar-datos-en-el-_configyml">Reconfigurar datos en el _config.yml</h2>
 
 <p>He modificado la <em>baseurl</em> de nuestro <strong>_config.ylm</strong> para que contenga el nombre de nuestro repositorio de Github.</p>
 
-<figure style="width: 400px" class="align-center">
-  <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/defaults.jpg" alt="" />
-</figure>
+<p><img src="/intro2sd-patricia-martinez-polo-alu0101116532/assets/images/defaults.jpg" alt="defaults" /></p>
 
 <p>Como he comentado anteriormente, he creado la collection <strong>resumenes</strong> y he modificado el <strong>_config.yml</strong> para que se pueda mostrar en el sitio web.</p>
 
@@ -448,7 +436,25 @@
 
 <p>He creado un archivo 404.md en la carpeta <strong>_pages</strong> y he añadido código para que salgan imágenes de perritos aleatorias en la página.</p>
 
-<p><img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/cap_error.jpg" alt="error" class="align-center" /></p>
+<p>«««&lt; HEAD
+<img src="/assets/images/cap_error.jpg" alt="error" />
+=======
+<img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/cap_error.jpg" alt="error" class="align-center" /></p>
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+        <blockquote>
+          <blockquote>
+            <blockquote>
+              <p>a85b5a18745a3b7816967b5b5dea409d15be844a</p>
+            </blockquote>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+</blockquote>
 
         
       </section>
@@ -615,7 +621,7 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">2022-11-09 19:45:44 +0000
+    <p class="archive__item-excerpt" itemprop="description">2022-11-09 21:16:08 +0000
 
 </p>
   </article>
