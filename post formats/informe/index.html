@@ -348,9 +348,15 @@
 
 <h2 id="sitio-web-en-github-pages">Sitio web en GitHub Pages</h2>
 
+<p>He creado un sitio web en GitHub Pages y lo he enlazado al repositorio de la práctica.</p>
+
+<figure style="width: 300px" class="align-center">
+  <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/gh_pages.jpg" alt="" />
+</figure>
+
 <h2 id="resumen-del-capítulo">Resumen del capítulo</h2>
 
-<p>he realizado un resumen del primer capítulo del libro <em>Developing Information Systems: Practical Guidance for IT Professionals</em>.</p>
+<p>He realizado un resumen del primer capítulo del libro <em>Developing Information Systems: Practical Guidance for IT Professionals</em>.</p>
 
 <p>Para ello he buscado el libro en el <a href="https://www.ull.es/servicios/biblioteca/servicios/puntoq/">PuntoQ</a> de la BULL para poder descargarlo.</p>
 
@@ -374,51 +380,35 @@
 
 <p>Para conseguir este despliegue he seguido los siguientes pasos:</p>
 
-<ol>
-  <li>He accedido a Netlify con mi cuenta de GitHub y concedido permisos.</li>
-</ol>
+<p>1.He accedido a Netlify con mi cuenta de GitHub y concedido permisos.</p>
 
-<figure style="width: 500px" class="align-center">
+<figure style="width: 300px" class="align-center">
   <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/connect_to_git_provider.jpg" alt="" />
 </figure>
 
-<ol>
-  <li>Netlify me ha pedido que importe alguno de mis repositorios de GitHub pero como el de la práctica es privado, no podemos importarlo. Por ello, primero cambiamos la vista de privada a publica.</li>
-</ol>
+<p>2.Netlify me ha pedido que importe alguno de mis repositorios de GitHub pero como el de la práctica es privado, no podemos importarlo. Por ello, primero cambiamos la vista de privada a publica.</p>
 
-<figure style="width: 500px" class="align-center">
+<figure style="width: 300px" class="align-center">
   <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/pick_a_repository.jpg" alt="" />
 </figure>
 
-<ol>
-  <li>Una vez hecho esto, nos toca modificar los ajustes básicos que se usan para el <em>build</em>. Vamos al archivo <strong>_config.dev.yml</strong> sonde están colgados los ajustes de sobrecarga del archivo <strong>_config.yml</strong> y añadimos código tal como se muestra en las imágenes:</li>
-</ol>
+<p>3.Una vez hecho esto, nos toca modificar los ajustes básicos que se usan para el <em>build</em>. Vamos al archivo <strong>_config.dev.yml</strong> sonde están colgados los ajustes de sobrecarga del archivo <strong>_config.yml</strong> y añadimos código tal como se muestra en las imágenes:</p>
 
-<figure style="width: 500px" class="align-center">
-  <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/config_dev_sin_editar.jpg" alt="" />
-</figure>
+<p><img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/config_dev_sin_editar.jpg" width="250x" />
+<img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/config_dev_editado.jpg" width="250x" /></p>
 
-<figure style="width: 500px" class="align-center">
-  <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/config_dev_editado.jpg" alt="" />
-</figure>
+<p>4.Por último, cambiamos los ajustes básicos de despliegue de Netlify y cambiamos el comando que se usará para realizar el despliegue para que use la configuración del fichero <strong>_config.yml</strong> sobrecargada por la del fichero <strong>_config.dev.yml</strong>. Si no se realizan esos cambios, la página se desplegará mal.</p>
 
-<ol>
-  <li>Por último, cambiamos los ajustes básicos de despliegue de Netlify y cambiamos el comando que se usará para realizar el despliegue para que use la configuración del fichero <strong>_config.yml</strong> sobrecargada por la del fichero <strong>_config.dev.yml</strong>. Si no se realizan esos cambios, la página se desplegará mal.</li>
-</ol>
+<p><img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/build_settings_1.jpg" width="250x" />
+<img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/build_settings_2.jpg" width="250x" /></p>
 
-<figure style="width: 500px" class="align-center">
-  <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/build_settings_1.jpg" alt="" />
-</figure>
-
-<figure style="width: 500px" class="align-center">
-  <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/build_settings_2.jpg" alt="" />
-</figure>
+<p>El resultado de este despliegue se encuentra en el siguiente enlace: <a href="https://cosmic-fudge-946bf2.netlify.app/" class="btn btn--primary btn--small">https://cosmic-fudge-946bf2.netlify.app/</a></p>
 
 <h2 id="crear-una-jekyll-collection">Crear una Jekyll Collection</h2>
 
 <p>Como en la práctica se pedía hacer un resumen del primer capítulo de un libro he decidido crear la collection <strong>resumenes</strong>. En ella se encuentran varios posts con resumenes de distintos capítulos de libros.</p>
 
-<figure style="width: 300px" class="align-center">
+<figure style="width: 250px" class="align-center">
   <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/collections.jpg" alt="" />
 </figure>
 
@@ -440,23 +430,19 @@
 
 <h2 id="reconfigurar-datos-en-el-_configyml">Reconfigurar datos en el _config.yml</h2>
 
-<p>He modificado la <em>baseurl</em> de nuestro <em>_config.ylm</em> para que contenga el nombre de nuestro repositorio de Github.</p>
+<p>He modificado la <em>baseurl</em> de nuestro <strong>_config.ylm</strong> para que contenga el nombre de nuestro repositorio de Github.</p>
 
-<figure style="width: 500px" class="align-center">
+<figure style="width: 200px" class="align-center">
   <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/defaults.jpg" alt="" />
 </figure>
 
-<p>Como he comentado anteriormente, he creado la collection <em>resumenes</em> y he modificado el <em>_config.yml</em> para que se pueda mostrar en el sitio web.</p>
-
-<figure style="width: 300px" class="align-center">
-  <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/collections.jpg" alt="" />
-</figure>
+<p>Como he comentado anteriormente, he creado la collection <strong>resumenes</strong> y he modificado el <strong>_config.yml</strong> para que se pueda mostrar en el sitio web.</p>
 
 <h2 id="página-404">Página 404</h2>
 
 <p>Aprovecharé el hecho de que estoy usando Jekyll para crear una página 404 personalizada.</p>
 
-<p>He creado un archivo 404.md en la carpeta <em>_pages</em> y he añadido código para que salgan imágenes de perritos aleatorias en la página.</p>
+<p>He creado un archivo 404.md en la carpeta <strong>_pages</strong> y he añadido código para que salgan imágenes de perritos aleatorias en la página.</p>
 
 <p><img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/cap_error.jpg" alt="error" class="align-center" /></p>
 
@@ -625,7 +611,7 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">2022-11-09 18:32:52 +0000
+    <p class="archive__item-excerpt" itemprop="description">2022-11-09 19:38:41 +0000
 
 </p>
   </article>
