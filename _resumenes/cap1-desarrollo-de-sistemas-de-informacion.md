@@ -14,19 +14,13 @@ tags:
 
 El desarrollo de sistemas es el proceso de tomar un conjunto de requisitos comerciales y traducirlos en un sistema de TI operativo por etapas.
 
-<figure style="width: 500px"
-class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/etapas.jpg" alt="">
-</figure>
+![etapas]({{ "/assets/images/etapas.jpg" | relative_url }})
 
 ## Desarrollo de sistemas y otras disciplinas
 
 El desarrollo de sistemas no tiene lugar de forma aislada; es parte de una red de disciplinas.
 
-<figure style="width: 400px"
-class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/disciplinas.jpg" alt="">
-</figure>
+![disciplinas]({{ "/assets/images/disciplinas.jpg" | relative_url }})
 
 La relación del desarrollo de sistemas con otras disciplinas puede resumirse de la siguiente manera:
 
