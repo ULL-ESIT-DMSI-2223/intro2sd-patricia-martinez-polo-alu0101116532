@@ -356,8 +356,9 @@
 
 <p>Una vez descargado, he traducido y leído el capítulo para, posteriormente, realizar un resumen del mismo.</p>
 
-<p><a href="https://ull-esit-dmsi-2223.github.io/intro2sd-patricia-martinez-polo-alu0101116532/resumenes/cap1-desarrollo-de-sistemas-de-informacion/" class="notice--info">Si quieres leer el Capítulo 1 haz click aquí</a>
-<a href="https://ull-esit-dmsi-2223.github.io/intro2sd-patricia-martinez-polo-alu0101116532/resumenes/cap2-desarrollo-de-sistemas-de-informacion/" class="notice--info">Si quieres leer el Capítulo 2 haz click aquí</a></p>
+<p><a href="https://ull-esit-dmsi-2223.github.io/intro2sd-patricia-martinez-polo-alu0101116532/resumenes/cap1-desarrollo-de-sistemas-de-informacion/" class="notice--info">Si quieres leer el Capítulo 1 haz click aquí</a></p>
+
+<p><a href="https://ull-esit-dmsi-2223.github.io/intro2sd-patricia-martinez-polo-alu0101116532/resumenes/cap2-desarrollo-de-sistemas-de-informacion/" class="notice--info">Si quieres leer el Capítulo 2 haz click aquí</a></p>
 
 <h2 id="kanban-board">Kanban Board</h2>
 
@@ -369,18 +370,41 @@
 
 <h2 id="despliegue-netlify">Despliegue Netlify</h2>
 
-<p>La práctica pide hacerun segundo despliegue en Netlify. Para ello he seguido uno de los links que el profesor nos ha facilitado: <a href="https://www.netlify.com/blog/2020/04/02/a-step-by-step-guide-jekyll-4.0-on-netlify/">A Step-by-Step Guide: Jekyll 4.0 on Netlify</a></p>
+<p>La práctica pide hacer un segundo despliegue en Netlify. Para ello he seguido uno de los links que el profesor nos ha facilitado: <a href="https://www.netlify.com/blog/2020/04/02/a-step-by-step-guide-jekyll-4.0-on-netlify/">A Step-by-Step Guide: Jekyll 4.0 on Netlify</a></p>
 
-<p>Para ello he seguido los siguientes pasos:</p>
+<p>Para conseguir este despliegue he seguido los siguientes pasos:</p>
 
 <ol>
-  <li>He accedido a Netlify con mi cuenta de GitHub y le he dado permisos.</li>
-  <li>Netlify me ha pedido que importe alguno de mis repositorios de GitHub pero al, el repositorios de la práctica ser privado, no podemos importarlo.</li>
+  <li>He accedido a Netlify con mi cuenta de GitHub y concedido permisos.</li>
 </ol>
 
 <figure style="width: 500px" class="align-center">
-  <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/import_netlify.jpg" alt="" />
+  <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/connect_to_git_provider.jpg" alt="" />
 </figure>
+
+<ol>
+  <li>Netlify me ha pedido que importe alguno de mis repositorios de GitHub pero como el de la práctica es privado, no podemos importarlo. Por ello, primero cambiamos la vista de privada a publica.</li>
+</ol>
+
+<figure style="width: 500px" class="align-center">
+  <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/pick_a_repository.jpg" alt="" />
+</figure>
+
+<ol>
+  <li>Una vez hecho esto, nos toca modificar los ajustes básicos que se usan para el <em>build</em>. Vamos al archivo <strong>_config.dev.yml</strong> sonde están colgados los ajustes de sobrecarga del archivo <strong>_config.yml</strong> y añadimos código tal como se muestra en las imágenes:</li>
+</ol>
+
+<figure style="width: 500px" class="align-center">
+  <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/config_dev_sin_editar.jpg" alt="" />
+</figure>
+
+<figure style="width: 500px" class="align-center">
+  <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/config_dev_editado.jpg" alt="" />
+</figure>
+
+<ol>
+  <li>Por último, cambiamos los ajustes básicos de despliegue de Netlify y cambiamos el comando que se usará para realizar el despliegue de npm run build a jekyll build –config _config.yml,_config.dev.yml para que use la configuración del fichero _config.yml sobrecargada por la del fichero _config.dev.yml. Si no se realizan esos cambios, la página se desplegará mal.</li>
+</ol>
 
 <h2 id="crear-una-jekyll-collection">Crear una Jekyll Collection</h2>
 
@@ -416,7 +440,7 @@
 
 <p>Como he comentado anteriormente, he creado la collection <em>resumenes</em> y he modificado el <em>_config.yml</em> para que se pueda mostrar en el sitio web.</p>
 
-<figure style="width: 500px" class="align-center">
+<figure style="width: 300px" class="align-center">
   <img src="https://mmistakes.github.io/intro2sd-patricia-martinez-polo-alu0101116532//assets/images/collections.jpg" alt="" />
 </figure>
 
@@ -593,7 +617,7 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">2022-11-08 15:00:46 +0000
+    <p class="archive__item-excerpt" itemprop="description">2022-11-09 18:27:26 +0000
 
 </p>
   </article>
