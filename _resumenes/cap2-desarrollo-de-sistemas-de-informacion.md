@@ -58,6 +58,23 @@ Los elementos del ciclo de vida del desarrollo del sistema a considerar son:
 
 ![ciclo_de_vida]({{ "/assets/images/ciclo_de_vida.jpg" | relative_url }})
 
+## Lo que entendemos por "ciclo de vida"
+
+Hoy en día se utilizan muchos ciclos de vida para el desarrollo de sistemas. Sin embargo, sólo se apoyan en cinco ciclos de vida básicos y dos enfoques.
+
+Hay que comprender y ser capaz de identificar los atributos fundamentales de un ciclo de vida ya que es fundamental para poder evaluar adecuadamente su idoneidad para un proyecto. Los primeros elementos fundamentales describen si un ciclo de vida es __lineal__ o __evolutivo__:
+
+* Un _enfoque lineal_ describe una secuencia de tareas que se completan en orden, y sólo se pasa al siguiente paso una vez que se ha completado el anterior.
+* Un _enfoque evolutivo_ hace evolucionar la solución a través de versiones progresivas, cada una más completa que la anterior, y a menudo utiliza un enfoque de desarrollo de prototipos.
+
+Luego, hay cinco ciclos de vida de desarrollo de sistemas básicos:
+
+* Cascada
+* Modelo en "V"
+* Incremental
+* Iterativo
+* Espiral
+
 
 **Lo siento!** Este texto aun no está terminado. Estamos trabajando en ello. 
 {: .notice--danger}
