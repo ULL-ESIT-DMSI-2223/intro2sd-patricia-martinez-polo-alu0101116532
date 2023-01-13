@@ -318,7 +318,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          2 minute read
+          4 minute read
         
       </span>
     
@@ -437,6 +437,66 @@
 <p>He creado un archivo 404.md en la carpeta <strong>_pages</strong> y he añadido código para que salgan imágenes de perritos aleatorias en la página.</p>
 
 <p><img src="/intro2sd-patricia-martinez-polo-alu0101116532/assets/images/cap_error.jpg" alt="error" /></p>
+
+<h1 id="práctica-jekyll-search">Práctica jekyll-search</h1>
+
+<h2 id="creación-de-una-nueva-rama">Creación de una nueva rama</h2>
+
+<p>Creamos en el repositorio una rama nueva llamada intro2sd para señalar el punto de entrega de la práctica 4 ya que esta práctica se ha realizado en la rama main.</p>
+
+<p>Estos son los pasos que hemos seguido:</p>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">git status</code>: Comprobamos que tengamos todo actualizado en el repositorio.</li>
+  <li><code class="language-plaintext highlighter-rouge">git checkout -b intro2sd</code>: Creamos una nueva rama llamada intro2sd.</li>
+  <li><code class="language-plaintext highlighter-rouge">git branch</code>: Comprobamos que se ha creado la rama.</li>
+  <li><code class="language-plaintext highlighter-rouge">git push -u origin intro2sd</code>: Subimos la rama al repositorio.</li>
+  <li><code class="language-plaintext highlighter-rouge">gh browse</code>: Abrimos el repositorio en el navegador.</li>
+  <li><code class="language-plaintext highlighter-rouge">git checkout main</code>: Volvemos a la rama main.</li>
+</ol>
+
+<p><img src="assets/images/nueva_rama.png" alt="nueva_rama" /></p>
+
+<h2 id="resumen-capítulo-2">Resumen Capítulo 2</h2>
+
+<p>En el siguiente enlace se encuentra el resumen del capítulo 2.</p>
+
+<p><a href="https://ull-esit-dmsi-2223.github.io/intro2sd-patricia-martinez-polo-alu0101116532/resumenes/cap2-desarrollo-de-sistemas-de-informacion/" class="notice--info">Haz click aquí</a></p>
+
+<h2 id="creación-de-una-nueva-kanban-board">Creación de una nueva Kanban Board</h2>
+
+<p>Para no confundir las dos Kanban Board he decidido crear una nueva para la práctica de búsqueda.</p>
+
+<p><img src="assets/images/kanban_board.jpg" alt="kanban_board" /></p>
+
+<h2 id="searchjson">search.json</h2>
+
+<p>Se ha creado la carpeta <em>_site/assets/src</em> y dentro de ella el fichero <em>search.json</em> ya que, debido a que Jekyll no tiene ejecución del lado del servidor, tenemos que confiar en almacenar todo el contenido requerido en un único archivo y buscar nuestra palabra clave desde ese archivo.</p>
+
+<p><img src="assets/images/search_json.jpg" alt="search_json" /></p>
+
+<h2 id="searchjs">search.js</h2>
+
+<p>En la misma carpeta <em>_site/assets/src</em> se ha creado el fichero <em>search.js</em> con la clase JekyllSearch.</p>
+
+<p><img src="assets/images/search_js_1.jpg" alt="search_js" /></p>
+
+<p><img src="assets/images/search_js_2.jpg" alt="search_js" /></p>
+
+<p><img src="assets/images/search_js_3.jpg" alt="search_js" /></p>
+
+<h2 id="searchmd">search.md</h2>
+
+<p>Se ha creado el fichero <em>search.md</em> que es el que implementa la búsqueda en el sitio web. Contiene un constructor al que se le pasan diferentes argumentos:</p>
+
+<ul>
+  <li>la ruta del archivo <em>search.json</em></li>
+  <li>el <code class="language-plaintext highlighter-rouge">id</code> del elemento del DOM en la página en la que está el tag <code class="language-plaintext highlighter-rouge">input</code> de la búsqueda</li>
+  <li>el <code class="language-plaintext highlighter-rouge">id</code> del elemento del DOM en el que se deben volcar los resultados
+la <code class="language-plaintext highlighter-rouge">url</code> de la página que se debe mostrar cuando se haga click en un resultado</li>
+</ul>
+
+<p><img src="assets/images/search_md.jpg" alt="search_md" /></p>
 
         
       </section>
@@ -603,7 +663,7 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">2023-01-12 19:52:58 +0000
+    <p class="archive__item-excerpt" itemprop="description">2023-01-13 00:35:43 +0000
 
 </p>
   </article>
