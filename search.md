@@ -27,7 +27,7 @@ title: Search
 < script type="text/javascript">
 
   const search = new JekyllSearch(
-    '{{site.baseurl}}/assets/src/search.json',
+    '{{site.url}}/assets/src/search.json',
     '#search',
     '#list',
     '{{site.baseurl}}'
